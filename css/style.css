@@ -1,0 +1,157 @@
+/**************************************TAGS**********************************************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #40514e;
+  background: linear-gradient(lightCyan, lightGray);
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+}
+h2 {
+  font-family: "Merriweather", serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+h3 {
+  font-family: "Merriweather", serif;
+  color: #11999e;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: none;
+  width: 7%;
+  border-top: 10px dotted gray;
+  margin: 100px auto;
+}
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: aliceblue;
+}
+
+/**************************************Class******************************************/
+.dp {
+  width: 200px;
+}
+.top {
+  padding-top: 100px;
+  background-color: #e4f9f5;
+  position: relative;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 270px;
+  height: 180px;
+  width: 180px;
+}
+.top-cloud {
+  position: absolute;
+  right: 220px;
+  top: 22px;
+  height: 180px;
+  width: 180px;
+}
+.mountain {
+  margin-top: 150px;
+  position: relative;
+  top: 3px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.burger {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.chilli {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.middle-container {
+  margin: 100px 0 100px 0;
+}
+.intro {
+  width: 30%;
+  margin: 0 auto 0 auto;
+}
+.msg {
+  width: 40%;
+  margin: 40px auto 50px auto;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 0 0;
+}
+.copy {
+  color: aliceblue;
+  padding: 20px 0;
+  font-size: 0.75rem;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+/* .web {
+  text-decoration: line-through;
+} */
+
+/****************************************BUTTON-COPIED**********************************/
+.btn {
+  background: #421c5d;
+  background-image: -webkit-linear-gradient(top, #421c5d, #11cdd4);
+  background-image: -moz-linear-gradient(top, #421c5d, #11cdd4);
+  background-image: -ms-linear-gradient(top, #421c5d, #11cdd4);
+  background-image: -o-linear-gradient(top, #421c5d, #11cdd4);
+  background-image: -webkit-gradient(to bottom, #421c5d, #11cdd4);
+  -webkit-border-radius: 90px;
+  -moz-border-radius: 90px;
+  border-radius: 90px;
+  height: 40px;
+  line-height: 50px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  width: 150px;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 20px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337fed 0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: groove #d25df3 0;
+  background: linear-gradient(lightGray, gray);
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  text-decoration: none;
+  color: #270606;
+}
